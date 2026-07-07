@@ -9,7 +9,7 @@ router = APIRouter()
 @router.get("/")
 def home():
     return {
-        "system": "TitanOS",
+        "system": "CerebrumOS",
         "status": "online"
     }
 
